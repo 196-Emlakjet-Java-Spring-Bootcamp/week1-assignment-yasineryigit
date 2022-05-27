@@ -63,9 +63,26 @@ ile çalıştırabiliriz.
 
 ###### JavaFx modülleri artık JDK dışında ayrı bir modül seti olarak sunulmaya başlandı
 
+# Java 17 ile gelen yenilikler
 
+###### JEP 356: Enhanced Pseudo-Random Number Generators
 
+Java 17, yeni arayüzü genişletmek için java.util.Randomve SplittableRandomgibi eski rastgele sınıfları da yeniden düzenlendi.
+SecureRandomRandomGenerator ortaya çıktı. 
 
+###### macOS/AArch64 Bağlantı Noktası ( JEP 391 )
+
+Apple, bilgisayar hattını X64'ten AArch64'e geçirmek için uzun vadeli bir plan duyurdu. Bu JEP, JDK'yı macOS platformlarında AArch64 üzerinde çalışacak şekilde taşır.
+
+###### Sealed Classes
+
+Kalıtım üzerinde hassas bir kontrol sağlar. Kotlinde de bulunur 
+```
+sealed class <sealed class name>
+    permits <subclass1>, <subclass2>, <subclass3> {
+}
+
+```
 
 
 
